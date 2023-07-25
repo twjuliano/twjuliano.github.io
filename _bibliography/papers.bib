@@ -91,3 +91,45 @@
   html={https://doi.org/10.1088/1748-9326/ac5143}
 }
 
+@article{Eghdami2022,
+  abbr={MWR},
+  title={Diagnosis of second-order turbulent properties of the surface layer for three-dimensional flow based on the Mellor and Yamada model},
+  author={Eghdami, M. and A. P. Barros and P. A. Jim\'enez and T. W. Juliano and B. Kosovi\'c},
+  abstract={Accurate representation of heterogeneous surface layer processes is essential for numerical weather prediction (NWP) with sub-kilometer grid spacing. NWP models such as the Weather Research and Forecasting (WRF) Model generally use second-moment turbulent models for parameterizing the planetary boundary layer (PBL). The most common parameterizations follow Mellor–Yamada and account for the vertical turbulent mixing only; that is, standard PBL parameterizations are one-dimensional (1DPBL). The horizontal diffusion of momentum is parameterized based on Smagorinsky’s model for numerical stability. Although the combination of 1DPBL and 2D Smagorinsky parameterizations is successful at coarse grid resolutions (e.g., grid-size dx ∼ 12–2 km), it does not represent well the effect of horizontal turbulence as gridcell size decreases (<1 km). To reconcile the representation of vertical and horizontal turbulent mixing, a full three-dimensional PBL scheme (3DPBL) based on the Mellor–Yamada model was implemented in WRF. The 3DPBL uses the horizontal and vertical turbulent fluxes diagnosed from the flow gradients to handle the turbulent mixing. These gradients cannot be directly calculated near the surface. Therefore, the 3DPBL parameterization is coupled herein to a second-order diagnostic model of the three-dimensional turbulent fluxes in the surface layer. Several adjustments to the original Mellor–Yamada model, including a modified length scale, were introduced to capture flow anisotropy and dependence on stability conditions. The results are compared against data from the Wind Forecast Improvement Project 2 (WFIP2) for different weather regimes and using different grid resolutions to examine stability and scale dependency.},
+  journal={Mon. Wea. Rev.},
+  volume={150},
+  pages={1003--1021},
+  year={2022},
+  doi={10.1175/MWR-D-21-0101.1},
+  html={https://doi.org/10.1175/MWR-D-21-0101.1}
+}
+
+@article{Juliano2022b,
+  abbr={MWR},
+  title={``Gray zone'' simulations using a three-dimensional planetary boundary layer parameterization in the Weather Research and Forecasting model},
+  author={Juliano, T. W. and B. Kosovi\'c and P. A. Jim\'enez and M. Eghdami and S. E. Haupt and A. Martilli},
+  abstract={Generating accurate weather forecasts of planetary boundary layer (PBL) properties is challenging in many geographical regions, oftentimes due to complex topography or horizontal variability in, for example, land characteristics. While recent advances in high-performance computing platforms have led to an increase in the spatial resolution of numerical weather prediction (NWP) models, the horizontal gridcell spacing ($\Delta$x) of many regional-scale NWP models currently fall within or are beginning to approach the gray zone (i.e., $\Delta$x $\approx$ 100–1000 m). At these gridcell spacings, three-dimensional (3D) effects are important, as the most energetic turbulent eddies are neither fully parameterized (as in traditional mesoscale simulations) nor fully resolved [as in traditional large-eddy simulations (LES)]. In light of this modeling challenge, we have implemented a 3D PBL parameterization for high-resolution mesoscale simulations using the Weather Research and Forecasting Model. The PBL scheme, which is based on the algebraic model developed by Mellor and Yamada, accounts for the 3D effects of turbulence by calculating explicitly the momentum, heat, and moisture flux divergences in addition to the turbulent kinetic energy. In this study, we present results from idealized simulations in the gray zone that illustrate the benefit of using a fully consistent turbulence closure framework under convective conditions. While the 3D PBL scheme reproduces the evolution of convective features more appropriately than the traditional 1D PBL scheme, we highlight the need to improve the turbulent length scale formulation.},
+  journal={Mon. Wea. Rev.},
+  volume={150},
+  pages={1585--1619},
+  year={2022},
+  doi={10.1175/MWR-D-21-0164.1},
+  html={https://doi.org/10.1175/MWR-D-21-0164.1}
+}
+
+@article{Arthur2022,
+  abbr={JAMC},
+  title={Improved representation of horizontal variability and turbulence in mesoscale simulations of an extended cold-air pool event},
+  author={Arthur, R. S. and T. W. Juliano and B. Adler and R. Krishnamurthy and J. K. Lundquist and B. Kosovi\'c and P. A. Jim\'enez},
+  abstract={Cold-air pools (CAPs), or stable atmospheric boundary layers that form within topographic basins, are associated with poor air quality, hazardous weather, and low wind energy output. Accurate prediction of CAP dynamics presents a challenge for mesoscale forecast models in part because CAPs occur in regions of complex terrain, where traditional turbulence parameterizations may not be appropriate. This study examines the effects of the planetary boundary layer (PBL) scheme and horizontal diffusion treatment on CAP prediction in the Weather Research and Forecasting (WRF) Model. Model runs with a one-dimensional (1D) PBL scheme and Smagorinsky-like horizontal diffusion are compared with runs that use a new three-dimensional (3D) PBL scheme to calculate turbulent fluxes. Simulations are completed in a nested configuration with 3-km/750-m horizontal grid spacing over a 10-day case study in the Columbia River basin, and results are compared with observations from the Second Wind Forecast Improvement Project. Using event-averaged error metrics, potential temperature and wind speed errors are shown to decrease both with increased horizontal grid resolution and with improved treatment of horizontal diffusion over steep terrain. The 3D PBL scheme further reduces errors relative to a standard 1D PBL approach. Error reduction is accentuated during CAP erosion, when turbulent mixing plays a more dominant role in the dynamics. Last, the 3D PBL scheme is shown to reduce near-surface overestimates of turbulence kinetic energy during the CAP event. The sensitivity of turbulence predictions to the master length-scale formulation in the 3D PBL parameterization is also explored.},
+  journal={J. Appl. Meteor. Climatol.},
+  volume={61},
+  pages={685--707},
+  year={2022},
+  doi={10.1175/JAMC-D-21-0138.1},
+  html={https://doi.org/10.1175/JAMC-D-21-0138.1}
+}
+
+Arthur, R. S., T. W. Juliano, B. Adler, R. Krishnamurthy, J. K. Lundquist, B. Kosović, and P. A. Jiménez, 2022: Improved representation of horizontal variability and turbulence in mesoscale simulations of an extended cold-air pool event, J. Appl. Meteor. Climatol., 61, 685–707. DOI: https://doi.org/10.1175/JAMC-D-21-0138.1
+
+
