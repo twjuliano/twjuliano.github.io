@@ -2,7 +2,7 @@
 layout: page
 title: Renewable Energy
 description: a project with a background image
-img: assets/img/3.jpg
+img: assets/img/renewable.png
 importance: 2
 category: work
 ---
