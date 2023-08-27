@@ -2,10 +2,10 @@
 layout: page
 title: Wildfires
 description: a project with a background image
-img: assets/img/12.jpg
+img: assets/img/wildfire_icon.jpg
 importance: 1
 category: work
-related_publications: einstein1956investigations, einstein1950meaning
+related_publications: Juliano2023‎
 ---
 
 Every project has a beautiful feature showcase page.
