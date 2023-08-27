@@ -2,7 +2,7 @@
 layout: page
 title: Forest Canopies
 description: another without an image
-img:
+img: assets/img/canopy_crop.jpg
 importance: 3
 category: fun
 ---
