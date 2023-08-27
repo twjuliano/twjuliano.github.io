@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Wildfires
-description: a project with a background image
+description:
 img: assets/img/wildfire_icon.jpg
 importance: 1
-category: work
 related_publications: Juliano2023‎
 ---
 
