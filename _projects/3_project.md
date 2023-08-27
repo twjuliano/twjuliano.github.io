@@ -2,8 +2,7 @@
 layout: page
 title: Arctic Clouds
 description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+img: assets/img/arctic.png
 importance: 3
 category: work
 ---
