@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Forest Canopies
-description: another without an image
+description:
 img: assets/img/canopy_crop.jpg
 importance: 3
-category: fun
 ---
 
 Every project has a beautiful feature showcase page.
