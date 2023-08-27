@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Renewable Energy
-description: a project with a background image
+description:
 img: assets/img/renewable.png
 importance: 2
-category: work
 ---
 
 Every project has a beautiful feature showcase page.
