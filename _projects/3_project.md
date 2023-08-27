@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Arctic Clouds
-description: a project that redirects to another website
+description:
 img: assets/img/arctic.png
 importance: 3
-category: work
 ---
 
 Every project has a beautiful feature showcase page.
